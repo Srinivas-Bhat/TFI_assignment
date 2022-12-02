@@ -44,7 +44,7 @@ const Signup = () => {
     e.preventDefault();
     console.log(form);
     const payload = JSON.stringify(form);
-    fetch("http://localhost:8000/auth/signup", {
+    fetch("https://tfibackend-production.up.railway.app/auth/signup", {
       headers: {
         "Content-Type": "application/json"
       },

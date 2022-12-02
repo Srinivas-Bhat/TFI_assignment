@@ -17,7 +17,7 @@ const Navbar = () => {
   const handleAllocationClick = () => {
     let length = localStorage.getItem("length");
     console.log(length);
-    fetch("http://localhost:8000/volunteer/allocate")
+    fetch("https://tfibackend-production.up.railway.app/volunteer/allocate")
     .then((res) => res.json())
     .then((res) => {
       console.log(res);

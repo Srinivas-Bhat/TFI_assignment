@@ -66,7 +66,7 @@ const AddVolunteer = () => {
       availability: availability,  
     }
     console.log(volunteerDetails);
-    fetch("http://localhost:8000/volunteer/register", {
+    fetch("https://tfibackend-production.up.railway.app/volunteer/register", {
       headers: {
         "Content-Type": "application/json"
       },
