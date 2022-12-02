@@ -1,0 +1,98 @@
+{
+  /* {info.token ? null : (
+          <Box
+            _hover={{
+              color: "#cc4f38",
+              textDecoration: "underline 1px dotted black",
+            }}
+          >
+            <Link to="/login">Login</Link>
+          </Box>
+        )} */
+}
+{
+  /* {info.token ? (
+          <Box
+            _hover={{
+              color: "#cc4f38",
+              textDecoration: "underline 1px dotted black",
+            }}
+          >
+            <Link to="/">Logout</Link>
+          </Box>
+        ) : (
+          <Box
+            _hover={{
+              color: "#cc4f38",
+              textDecoration: "underline 1px dotted black",
+            }}
+          >
+            <Link to="/login">Login</Link>
+            <Box
+            _hover={{
+              color: "white",
+              textDecoration: "underline 1px dotted black",
+            }}
+            color="white"
+            borderRadius="10px"
+            bgColor="blue.400"
+            p="5px 10px"
+          >
+            <Link to="/signup">Signup</Link>
+          </Box>
+          </Box>
+        )} */
+}
+
+{
+  /* {info.role === "Admin" ? (
+          <Box
+            _hover={{
+              color: "#cc4f38",
+              textDecoration: "underline 1px dotted black",
+            }}
+          >
+            <Link to="/volunteer">Volunteer</Link>
+          </Box>
+        ) : null} */
+}
+
+{
+  /* {info.token ? null : (
+          <Box
+            _hover={{
+              color: "white",
+              textDecoration: "underline 1px dotted black",
+            }}
+            color="white"
+            borderRadius="10px"
+            bgColor="blue.400"
+            p="5px 10px"
+          >
+            <Link to="/signup">Signup</Link>
+          </Box>
+        )} */
+}
+
+{
+  /* {info.token ? (
+          <Box
+            _hover={{
+              color: "#cc4f38",
+              textDecoration: "underline 1px dotted black",
+            }}
+            
+          >
+            <Link>Logout</Link>
+          </Box>
+        ) : (
+          <Box
+            _hover={{
+              color: "#cc4f38",
+              textDecoration: "underline 1px dotted black",
+            }}
+          >
+            <Link to="/login">Login</Link>
+          </Box>
+        )} */
+}
